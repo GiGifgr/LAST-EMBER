@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 609704bab99be8c4cb0452788a07e05e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3153553078861620814
+    second: music boton_0
+  - first:
+      213: 4645290608310222912
+    second: music boton_1
+  - first:
+      213: 7881252403213260851
+    second: music boton_2
+  - first:
+      213: 7104584697170408642
+    second: music boton_3
+  - first:
+      213: 4241265197832706473
+    second: music boton_4
+  - first:
+      213: -3607365045179619645
+    second: music boton_5
+  - first:
+      213: -9001996321695520060
+    second: music boton_6
+  - first:
+      213: -6941893521498785044
+    second: music boton_7
+  - first:
+      213: -3138050943366086332
+    second: music boton_8
+  - first:
+      213: 3541264286555321246
+    second: music boton_9
+  - first:
+      213: -8833949419574123998
+    second: music boton_10
+  - first:
+      213: 5613020350473130003
+    second: music boton_11
+  - first:
+      213: -7274766767043830460
+    second: music boton_12
+  - first:
+      213: 4629121071773980907
+    second: music boton_13
+  - first:
+      213: -3738233984391309943
+    second: music boton_14
+  - first:
+      213: -7992723338917786096
+    second: music boton_15
+  - first:
+      213: -3750099159200890651
+    second: music boton_16
+  - first:
+      213: 528793433867997052
+    second: music boton_17
+  - first:
+      213: 4690879258699267393
+    second: music boton_18
+  - first:
+      213: -6367837020753110137
+    second: music boton_19
+  - first:
+      213: 1560035800288917236
+    second: music boton_20
+  - first:
+      213: 4361809483137939523
+    second: music boton_21
+  - first:
+      213: 8961082214524401005
+    second: music boton_22
+  - first:
+      213: -1294488259336771665
+    second: music boton_23
+  - first:
+      213: 2570416896366146016
+    second: music boton_24
+  - first:
+      213: 2968997919623410471
+    second: music boton_25
+  - first:
+      213: -4522141864607667340
+    second: music boton_26
+  - first:
+      213: 1529560331233058576
+    second: music boton_27
+  - first:
+      213: 2901244341410566356
+    second: music boton_28
+  - first:
+      213: 5620065811649920814
+    second: music boton_29
+  - first:
+      213: 1568666840520725767
+    second: music boton_30
+  - first:
+      213: -1912111495014440828
+    second: music boton_31
+  - first:
+      213: -3197075446056289095
+    second: music boton_32
+  - first:
+      213: -8721119643880760216
+    second: music boton_33
+  - first:
+      213: -5649853277739889624
+    second: music boton_34
+  - first:
+      213: -6162228178500840201
+    second: music boton_35
+  - first:
+      213: 3192969679833633358
+    second: music boton_36
+  - first:
+      213: 3649635167999970018
+    second: music boton_37
+  - first:
+      213: -5819160670557634601
+    second: music boton_38
+  - first:
+      213: -6634079720299912290
+    second: music boton_39
+  - first:
+      213: -4374324539256034561
+    second: music boton_40
+  - first:
+      213: 192824863479738509
+    second: music boton_41
+  - first:
+      213: 4392005104144257425
+    second: music boton_42
+  - first:
+      213: -960061878252115220
+    second: music boton_43
+  - first:
+      213: -6437958534645806813
+    second: music boton_44
+  - first:
+      213: -6119416785052828948
+    second: music boton_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: music boton_0
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 626
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46e2e521dba3cb20800000000000000
+      internalID: 3153553078861620814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 667
+        width: 85
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0400aca4233677040800000000000000
+      internalID: 4645290608310222912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 667
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33858b6dd45df5d60800000000000000
+      internalID: 7881252403213260851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 690
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4b48fe32e889260800000000000000
+      internalID: 7104584697170408642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_4
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 628
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a99b0be9300cda30800000000000000
+      internalID: 4241265197832706473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_5
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 630
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c668e2aa9010fdc0800000000000000
+      internalID: -3607365045179619645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_6
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 671
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca27ff3a0c721380800000000000000
+      internalID: -9001996321695520060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_7
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 667
+        width: 90
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaba763f9079af90800000000000000
+      internalID: -6941893521498785044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_8
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 675
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441c5990b476374d0800000000000000
+      internalID: -3138050943366086332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_9
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 635
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9338ef2b19152130800000000000000
+      internalID: 3541264286555321246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 2125
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2222482aec1876580800000000000000
+      internalID: -8833949419574123998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_11
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 661
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3105dfa054475ed40800000000000000
+      internalID: 5613020350473130003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_12
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 659
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d19823b26da0b90800000000000000
+      internalID: -7274766767043830460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 642
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be81d51b611fd3040800000000000000
+      internalID: 4629121071773980907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_14
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 642
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98510194fff1f1cc0800000000000000
+      internalID: -3738233984391309943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_15
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 617
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ec4d37874241190800000000000000
+      internalID: -7992723338917786096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_16
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 653
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0075ffea8f4fbc0800000000000000
+      internalID: -3750099159200890651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_17
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 642
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fc24193d6a65700800000000000000
+      internalID: 528793433867997052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_18
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 626
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d740b15d9591140800000000000000
+      internalID: 4690879258699267393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_19
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 626
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bdd66c7f5e0a7a0800000000000000
+      internalID: -6367837020753110137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_20
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 638
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6fc118b4c56a510800000000000000
+      internalID: 1560035800288917236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_21
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 629
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348fd547d92488c30800000000000000
+      internalID: 4361809483137939523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_22
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 643
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d653cc7dbc82c5c70800000000000000
+      internalID: 8961082214524401005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_23
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 634
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7615069cd090ee0800000000000000
+      internalID: -1294488259336771665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_24
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 629
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1f0907c84fba320800000000000000
+      internalID: 2570416896366146016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_25
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 628
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723f602a0eff33920800000000000000
+      internalID: 2968997919623410471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_26
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 620
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b2328feef1e31c0800000000000000
+      internalID: -4522141864607667340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_27
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fdcad64071a3510800000000000000
+      internalID: 1529560331233058576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_28
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 624
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d093686b5a434820800000000000000
+      internalID: 2901244341410566356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_29
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ff5bd441c7efd40800000000000000
+      internalID: 5620065811649920814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_30
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 624
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7051c282e2605c510800000000000000
+      internalID: 1568666840520725767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_31
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 618
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48029b0e9b0d675e0800000000000000
+      internalID: -1912111495014440828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_32
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 609
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcf0b512d4b1a3d0800000000000000
+      internalID: -3197075446056289095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_33
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 605
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c5ecee3eb58f680800000000000000
+      internalID: -8721119643880760216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_34
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 618
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ccc3bc060b791b0800000000000000
+      internalID: -5649853277739889624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_35
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 611
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f41e8bde1e5b7aa0800000000000000
+      internalID: -6162228178500840201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_36
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 601
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e429319b105bf4c20800000000000000
+      internalID: 3192969679833633358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_37
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 596
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea496449db16a230800000000000000
+      internalID: 3649635167999970018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_38
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 602
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dffc7c83303e3fa0800000000000000
+      internalID: -5819160670557634601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_39
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 602
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93a6eba4a30fe3a0800000000000000
+      internalID: -6634079720299912290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_40
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 602
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaae59f1074b43c0800000000000000
+      internalID: -4374324539256034561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_41
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 160
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80b293113d0da200800000000000000
+      internalID: 192824863479738509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_42
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 104
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19198345f5983fc30800000000000000
+      internalID: 4392005104144257425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_43
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 83
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea6360fecc2da2f0800000000000000
+      internalID: -960061878252115220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_44
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 54
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3290ebf82d6c7a6a0800000000000000
+      internalID: -6437958534645806813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music boton_45
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceafc562bd6731ba0800000000000000
+      internalID: -6119416785052828948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      music boton_0: 3153553078861620814
+      music boton_1: 4645290608310222912
+      music boton_10: -8833949419574123998
+      music boton_11: 5613020350473130003
+      music boton_12: -7274766767043830460
+      music boton_13: 4629121071773980907
+      music boton_14: -3738233984391309943
+      music boton_15: -7992723338917786096
+      music boton_16: -3750099159200890651
+      music boton_17: 528793433867997052
+      music boton_18: 4690879258699267393
+      music boton_19: -6367837020753110137
+      music boton_2: 7881252403213260851
+      music boton_20: 1560035800288917236
+      music boton_21: 4361809483137939523
+      music boton_22: 8961082214524401005
+      music boton_23: -1294488259336771665
+      music boton_24: 2570416896366146016
+      music boton_25: 2968997919623410471
+      music boton_26: -4522141864607667340
+      music boton_27: 1529560331233058576
+      music boton_28: 2901244341410566356
+      music boton_29: 5620065811649920814
+      music boton_3: 7104584697170408642
+      music boton_30: 1568666840520725767
+      music boton_31: -1912111495014440828
+      music boton_32: -3197075446056289095
+      music boton_33: -8721119643880760216
+      music boton_34: -5649853277739889624
+      music boton_35: -6162228178500840201
+      music boton_36: 3192969679833633358
+      music boton_37: 3649635167999970018
+      music boton_38: -5819160670557634601
+      music boton_39: -6634079720299912290
+      music boton_4: 4241265197832706473
+      music boton_40: -4374324539256034561
+      music boton_41: 192824863479738509
+      music boton_42: 4392005104144257425
+      music boton_43: -960061878252115220
+      music boton_44: -6437958534645806813
+      music boton_45: -6119416785052828948
+      music boton_5: -3607365045179619645
+      music boton_6: -9001996321695520060
+      music boton_7: -6941893521498785044
+      music boton_8: -3138050943366086332
+      music boton_9: 3541264286555321246
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

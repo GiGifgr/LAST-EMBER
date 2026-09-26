@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 642e48709bff2894085181220d7ad23b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1708398295532891094
+    second: botoncuadrado_0
+  - first:
+      213: -1164263527755280575
+    second: botoncuadrado_1
+  - first:
+      213: 7189325431744576039
+    second: botoncuadrado_2
+  - first:
+      213: 4266766081021954672
+    second: botoncuadrado_3
+  - first:
+      213: -6693709244798478561
+    second: botoncuadrado_4
+  - first:
+      213: 7568200467494732793
+    second: botoncuadrado_5
+  - first:
+      213: 2227738688502286063
+    second: botoncuadrado_6
+  - first:
+      213: -5676482260161044273
+    second: botoncuadrado_7
+  - first:
+      213: -2758166160338563648
+    second: botoncuadrado_8
+  - first:
+      213: -5256368256872082987
+    second: botoncuadrado_9
+  - first:
+      213: -7353295907632232606
+    second: botoncuadrado_10
+  - first:
+      213: 9049898980236121562
+    second: botoncuadrado_11
+  - first:
+      213: -952061206337321172
+    second: botoncuadrado_12
+  - first:
+      213: -6982409388151813539
+    second: botoncuadrado_13
+  - first:
+      213: -4645917746740887651
+    second: botoncuadrado_14
+  - first:
+      213: 3803802671934296868
+    second: botoncuadrado_15
+  - first:
+      213: 743371618892605036
+    second: botoncuadrado_16
+  - first:
+      213: -1572826616607313943
+    second: botoncuadrado_17
+  - first:
+      213: 6891420519591065976
+    second: botoncuadrado_18
+  - first:
+      213: -2983650707282620342
+    second: botoncuadrado_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: botoncuadrado_0
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1245
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbee14c23375b710800000000000000
+      internalID: 1708398295532891094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 1235
+        height: 1201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f04337d74b7dfe0800000000000000
+      internalID: -1164263527755280575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1004
+        width: 98
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a31d5b36d95c360800000000000000
+      internalID: 7189325431744576039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_3
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 308
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07acff6f429963b30800000000000000
+      internalID: 4266766081021954672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_4
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 166
+        width: 166
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17d90a18ea2b13a0800000000000000
+      internalID: -6693709244798478561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_5
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 132
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f308f52a36a70960800000000000000
+      internalID: 7568200467494732793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6c29cb8848aee10800000000000000
+      internalID: 2227738688502286063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_7
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 95
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc06b4da5751931b0800000000000000
+      internalID: -5676482260161044273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_8
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd44859d7609b9d0800000000000000
+      internalID: -2758166160338563648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_9
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 75
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d110887be0ad07b0800000000000000
+      internalID: -5256368256872082987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 97
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2674f39d458d3f990800000000000000
+      internalID: -7353295907632232606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 63
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5d4229c23b79d70800000000000000
+      internalID: 9049898980236121562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_12
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2785d7806999c2f0800000000000000
+      internalID: -952061206337321172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_13
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 87
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5acbd6e7af791f90800000000000000
+      internalID: -6982409388151813539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_14
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 77
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f73d9ac62668fb0800000000000000
+      internalID: -4645917746740887651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_15
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 79
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42353507062d9c430800000000000000
+      internalID: 3803802671934296868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_16
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 89
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6663308c8cf05a00800000000000000
+      internalID: 743371618892605036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 47
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef67df76823c2ae0800000000000000
+      internalID: -1572826616607313943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_18
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 65
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8793014437e33af50800000000000000
+      internalID: 6891420519591065976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botoncuadrado_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 63
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4093926d71f796d0800000000000000
+      internalID: -2983650707282620342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      botoncuadrado_0: 1708398295532891094
+      botoncuadrado_1: -1164263527755280575
+      botoncuadrado_10: -7353295907632232606
+      botoncuadrado_11: 9049898980236121562
+      botoncuadrado_12: -952061206337321172
+      botoncuadrado_13: -6982409388151813539
+      botoncuadrado_14: -4645917746740887651
+      botoncuadrado_15: 3803802671934296868
+      botoncuadrado_16: 743371618892605036
+      botoncuadrado_17: -1572826616607313943
+      botoncuadrado_18: 6891420519591065976
+      botoncuadrado_19: -2983650707282620342
+      botoncuadrado_2: 7189325431744576039
+      botoncuadrado_3: 4266766081021954672
+      botoncuadrado_4: -6693709244798478561
+      botoncuadrado_5: 7568200467494732793
+      botoncuadrado_6: 2227738688502286063
+      botoncuadrado_7: -5676482260161044273
+      botoncuadrado_8: -2758166160338563648
+      botoncuadrado_9: -5256368256872082987
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

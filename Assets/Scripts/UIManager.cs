@@ -5,9 +5,16 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance { get; private set; }
     [SerializeField] private List<UIWindow> _uiWindows;
-    void Start()
+    public List<UIWindow> UIWindows => _uiWindows;
+    private void Awake()
     {
-        
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(this.gameObject);
     }
 
     public void ShowWindow(string windowName)
@@ -44,14 +51,19 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private void Awake()
+    public UIWindow GetWindow(string windowName)
     {
-        if(Instance != null && Instance != this)
+        foreach (var window in _uiWindows)
         {
-            Destroy(gameObject);
-            return;
+            if (window.Id == windowName)
+            {
+                return window;
+            }
         }
-        Instance = this;
-        DontDestroyOnLoad(this.gameObject);
+
+        Debug.LogError("Window not found: " + windowName);
+        return null;
     }
+
+
 }

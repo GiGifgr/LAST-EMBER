@@ -5,20 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public UIManager UIManager;
-
-    #region Test
-
-    [Button]
-    private void ShowWindowPopup()
-    {
-        UIManager.ShowWindow("popupui");
-    }
+    public string uiToShow;
 
     [Button]
-    private void ShowSettings()
+    private void Test()
     {
-        UIManager.ShowWindow("settingsui");
+        UIManager.ShowWindow(uiToShow);
     }
 
-    #endregion
 }

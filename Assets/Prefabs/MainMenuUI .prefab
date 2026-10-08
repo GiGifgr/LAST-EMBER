@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 896167970702779796}
   - component: {fileID: 7775129422920456700}
   m_Layer: 0
-  m_Name: SettingsCanvas
+  m_Name: MainMenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1458,7 +1458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3158727631820357954}
-  - component: {fileID: 971436161778443137}
+  - component: {fileID: 3578866797880791836}
   m_Layer: 0
   m_Name: 'MainMenuUI '
   m_TagString: Untagged
@@ -1482,7 +1482,7 @@ Transform:
   - {fileID: 5993219501838702957}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &971436161778443137
+--- !u!114 &3578866797880791836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1491,10 +1491,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7888211933056169369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2aa4939d40407b4c8c89bbae9d2046d, type: 3}
+  m_Script: {fileID: 11500000, guid: d0efa26af9e61b64f9ff4dd59553e347, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SettingsUI
-  _id: settingsui
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
+  _id: mainmenuui
   _canvasRectTransform: {fileID: 5993219501838702957}
   _canvasGroup: {fileID: 5765142401668083708}
   _hideOnStart: 1

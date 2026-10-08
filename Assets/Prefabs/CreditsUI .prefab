@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 3244287696613869255}
   - component: {fileID: 7425026485028952423}
   m_Layer: 0
-  m_Name: SettingsCanvas
+  m_Name: CreditsCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -592,7 +592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 62762052024750240}
-  - component: {fileID: 4781713261097575760}
+  - component: {fileID: 3452647576915757003}
   m_Layer: 0
   m_Name: 'CreditsUI '
   m_TagString: Untagged
@@ -616,7 +616,7 @@ Transform:
   - {fileID: 1033760905996962031}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4781713261097575760
+--- !u!114 &3452647576915757003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -625,10 +625,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6750016925187232289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2aa4939d40407b4c8c89bbae9d2046d, type: 3}
+  m_Script: {fileID: 11500000, guid: 230e97d77bd3bef4db2e8070222b9979, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SettingsUI
-  _id: settingsui
+  m_EditorClassIdentifier: Assembly-CSharp::CreditsUI
+  _id: creditsui
   _canvasRectTransform: {fileID: 1033760905996962031}
   _canvasGroup: {fileID: 9106492855862008406}
   _hideOnStart: 1

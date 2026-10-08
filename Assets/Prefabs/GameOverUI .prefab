@@ -1152,7 +1152,7 @@ GameObject:
   - component: {fileID: 4352264148124455790}
   - component: {fileID: 7139712447778709229}
   m_Layer: 0
-  m_Name: SettingsCanvas
+  m_Name: GameOverCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1662,7 +1662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3665885584605090880}
-  - component: {fileID: 8276387638823589877}
+  - component: {fileID: 676415790952286770}
   m_Layer: 0
   m_Name: 'GameOverUI '
   m_TagString: Untagged
@@ -1686,7 +1686,7 @@ Transform:
   - {fileID: 3291696065465377374}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8276387638823589877
+--- !u!114 &676415790952286770
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1695,10 +1695,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8117568434720332425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2aa4939d40407b4c8c89bbae9d2046d, type: 3}
+  m_Script: {fileID: 11500000, guid: 626878e8eb34b9441a982a94afae211d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SettingsUI
-  _id: settingsui
+  m_EditorClassIdentifier: Assembly-CSharp::GameOverUI
+  _id: gameoverui
   _canvasRectTransform: {fileID: 3291696065465377374}
   _canvasGroup: {fileID: 758756131098251988}
   _hideOnStart: 1

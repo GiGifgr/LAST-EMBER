@@ -7,7 +7,7 @@ using AudioType = Dino.Utility.Audio.AudioType;
 
 public class SettingsUI : UIWindow
 {
-    private Toggle toggleAudio;
+    [SerializeField] private Toggle toggleAudio;
 
     [Button("Test Show")]
     private void TestShow()
@@ -35,7 +35,7 @@ public class SettingsUI : UIWindow
     {
         base.Initialize();
         toggleAudio.onValueChanged.AddListener(OnToggleChange);
-
+        OnToggleChange(toggleAudio.isOn);
 
     }
 
@@ -43,7 +43,11 @@ public class SettingsUI : UIWindow
     {
         if (value)
         {
-
+            OnVolumeMusicChanged(1f);
+        }
+        else
+        {
+            OnVolumeMusicChanged(0f);
         }
     }
 

@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: 4794dd8e9e5ad0d4e9c4c3c0369473e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2200106238681898535
+    second: llama_0
+  - first:
+      213: -8641802642409029792
+    second: llama_1
+  - first:
+      213: 1284884675866880519
+    second: llama_2
+  - first:
+      213: -654205148098320520
+    second: llama_3
+  - first:
+      213: -3125024498828027006
+    second: llama_4
+  - first:
+      213: -1485936648587838527
+    second: llama_5
+  - first:
+      213: -5378623362866718518
+    second: llama_6
+  - first:
+      213: 8551125954475774257
+    second: llama_7
+  - first:
+      213: -4135373348618980539
+    second: llama_8
+  - first:
+      213: 5182268208077846750
+    second: llama_9
+  - first:
+      213: 7089502389978900260
+    second: llama_10
+  - first:
+      213: 1747399893047661819
+    second: llama_11
+  - first:
+      213: 3961660897621213737
+    second: llama_12
+  - first:
+      213: -9045925461524406133
+    second: llama_13
+  - first:
+      213: -7925215155320852734
+    second: llama_14
+  - first:
+      213: -8389175112089365638
+    second: llama_15
+  - first:
+      213: -7467883278259887123
+    second: llama_16
+  - first:
+      213: -6570223202851355020
+    second: llama_17
+  - first:
+      213: -601812343321888424
+    second: llama_18
+  - first:
+      213: 2463836656489930727
+    second: llama_19
+  - first:
+      213: -8947403786295433722
+    second: llama_20
+  - first:
+      213: 43051032245049589
+    second: llama_21
+  - first:
+      213: -6349278097892829428
+    second: llama_22
+  - first:
+      213: -8787668001890394770
+    second: llama_23
+  - first:
+      213: -2637267204981235652
+    second: llama_24
+  - first:
+      213: -8448535965472176402
+    second: llama_25
+  - first:
+      213: 1790282822750314090
+    second: llama_26
+  - first:
+      213: -8960381855465070627
+    second: llama_27
+  - first:
+      213: -4129672388122757549
+    second: llama_28
+  - first:
+      213: -7524801051428788654
+    second: llama_29
+  - first:
+      213: 5423075744944139095
+    second: llama_30
+  - first:
+      213: -2266051401671071542
+    second: llama_31
+  - first:
+      213: -3496483490438519753
+    second: llama_32
+  - first:
+      213: 6959156271614765944
+    second: llama_33
+  - first:
+      213: -8578706655501584425
+    second: llama_34
+  - first:
+      213: -7395214842753163898
+    second: llama_35
+  - first:
+      213: 4653860172062102152
+    second: llama_36
+  - first:
+      213: -6912345009001878086
+    second: llama_37
+  - first:
+      213: -176066571613547386
+    second: llama_38
+  - first:
+      213: 5973852678951932470
+    second: llama_39
+  - first:
+      213: 2630624970559301708
+    second: llama_40
+  - first:
+      213: -2623209526591080865
+    second: llama_41
+  - first:
+      213: -6912014378832148554
+    second: llama_42
+  - first:
+      213: 1249809885361196420
+    second: llama_43
+  - first:
+      213: 3282828804540734643
+    second: llama_44
+  - first:
+      213: 7994994770162317575
+    second: llama_45
+  - first:
+      213: -7409508845429877745
+    second: llama_46
+  - first:
+      213: -3847765982923356415
+    second: llama_47
+  - first:
+      213: 776495465162192756
+    second: llama_48
+  - first:
+      213: -7664722162201899352
+    second: llama_49
+  - first:
+      213: 4797677305596003722
+    second: llama_50
+  - first:
+      213: 5818499490189777669
+    second: llama_51
+  - first:
+      213: 6932388384647071488
+    second: llama_52
+  - first:
+      213: -7301882858807429696
+    second: llama_53
+  - first:
+      213: -8247347810048731874
+    second: llama_54
+  - first:
+      213: 932693305275752800
+    second: llama_55
+  - first:
+      213: -8495052382117702143
+    second: llama_56
+  - first:
+      213: -2608844200691498983
+    second: llama_57
+  - first:
+      213: 7641127003373951870
+    second: llama_58
+  - first:
+      213: -3368255288117420064
+    second: llama_59
+  - first:
+      213: 7675070552048035108
+    second: llama_60
+  - first:
+      213: -5787523903512320683
+    second: llama_61
+  - first:
+      213: -6244111309273334455
+    second: llama_62
+  - first:
+      213: 111129208471158084
+    second: llama_63
+  - first:
+      213: 3051419572597061259
+    second: llama_64
+  - first:
+      213: -2973244635175842846
+    second: llama_65
+  - first:
+      213: 3363103163351157790
+    second: llama_66
+  - first:
+      213: -8344334097390455622
+    second: llama_67
+  - first:
+      213: -2429572537148731894
+    second: llama_68
+  - first:
+      213: -1254628555440060669
+    second: llama_69
+  - first:
+      213: 1697023554886212818
+    second: llama_70
+  - first:
+      213: 1834090847856518692
+    second: llama_71
+  - first:
+      213: 765631120202924401
+    second: llama_72
+  - first:
+      213: -3466458638077489966
+    second: llama_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: llama_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1ae375807a771e0800000000000000
+      internalID: -2200106238681898535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f7d207846221880800000000000000
+      internalID: -8641802642409029792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a636a1ec3d4d110800000000000000
+      internalID: 1284884675866880519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama_3
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8772e5942ebcbe6f0800000000000000
+      internalID: -654205148098320520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b56f086cea1a4d0800000000000000
+      internalID: -3125024498828027006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbff2ead74e06be0800000000000000
+      internalID: -1485936648587838527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama_6
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac856b37c8a4b55b0800000000000000
+      internalID: -5378623362866718518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama_7
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131d622ffb3bba670800000000000000
+      internalID: 8551125954475774257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a96f4c51a0eba4b4e90ea9016e492927
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":443.0,"y":443.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      llama_0: -2200106238681898535
+      llama_1: -8641802642409029792
+      llama_2: 1284884675866880519
+      llama_3: -654205148098320520
+      llama_4: -3125024498828027006
+      llama_5: -1485936648587838527
+      llama_6: -5378623362866718518
+      llama_7: 8551125954475774257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

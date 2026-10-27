@@ -47,7 +47,7 @@ public class UIWindow : MonoBehaviour
             _canvasGroup.transform.localScale = Vector3.zero;
             _canvasRectTransform.gameObject.SetActive(true);
             RectTransform rectTransform = _canvasGroup.GetComponent<RectTransform>();
-            rectTransform.DOScale(Vector3.one, showDuration).SetEase(showEase).OnComplete(() =>
+            rectTransform.DOScale(Vector3.one, 0).SetEase(showEase).OnComplete(() =>
             {
                 _isShowing = false;
             });
@@ -68,7 +68,7 @@ public class UIWindow : MonoBehaviour
                 return;
             }
             RectTransform rectTransform = _canvasGroup.GetComponent<RectTransform>();
-            rectTransform.DOScale(Vector3.zero, hideDuration).SetEase(hideEase).OnComplete(() =>
+            rectTransform.DOScale(Vector3.zero, 0).SetEase(hideEase).OnComplete(() =>
             {
                 _canvasRectTransform.gameObject.SetActive(false);
             });

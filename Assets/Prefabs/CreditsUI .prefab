@@ -599,7 +599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &62762052024750240
 Transform:
   m_ObjectHideFlags: 0
@@ -648,6 +648,7 @@ GameObject:
   - component: {fileID: 8649951865752635898}
   - component: {fileID: 1658075146763852160}
   - component: {fileID: 832253000324935459}
+  - component: {fileID: 1424244850159928127}
   m_Layer: 0
   m_Name: return_Button
   m_TagString: Untagged
@@ -757,6 +758,23 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1424244850159928127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7219602580336722677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67bfc3e95a8e6054fae5f9d345989760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResponsiveElement
+  rectTransform: {fileID: 7948988385025391357}
+  mobileAnchorMin: {x: 0.05796677, y: 0.9408703}
+  mobileAnchorMax: {x: 0.20497154, y: 0.9537908}
+  tabletAnchorMin: {x: 0.05796677, y: 0.8733489}
+  tabletAnchorMax: {x: 0.20497154, y: 0.8862694}
 --- !u!1 &8494467852840883074
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,12 +885,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 56
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 56
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512

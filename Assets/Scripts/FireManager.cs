@@ -34,11 +34,7 @@ public class FireManager : MonoBehaviour
 
     private void Start()
     {
-        currentFire = maxFire;
-        baseCampfire.SetActive(true);
-        flame.SetActive(true);
-        extinguishedCampfire.SetActive(false);
-        UpdateFireVisuals();
+        ResetFire();
     }
 
     private void Update()
@@ -103,5 +99,14 @@ public class FireManager : MonoBehaviour
         flame.SetActive(false);
         extinguishedCampfire.SetActive(true);
         Debug.Log("GAME OVER");
+    }
+
+    public void ResetFire()
+    {
+        currentFire = maxFire;
+        baseCampfire.SetActive(true);
+        flame.SetActive(true);
+        extinguishedCampfire.SetActive(false);
+        UpdateFireVisuals();
     }
 }

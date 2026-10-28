@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: e343f15b9dabd414e881046d94f07049
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1865003421655302090
+    second: enemigoINTERMEDIO_0
+  - first:
+      213: 5256316364166569443
+    second: enemigoINTERMEDIO_1
+  - first:
+      213: 4714171141908921977
+    second: enemigoINTERMEDIO_2
+  - first:
+      213: 2860270900616900895
+    second: enemigoINTERMEDIO_3
+  - first:
+      213: -3621555820161626530
+    second: enemigoINTERMEDIO_4
+  - first:
+      213: -8305358099676462262
+    second: enemigoINTERMEDIO_5
+  - first:
+      213: -93496774699489745
+    second: enemigoINTERMEDIO_6
+  - first:
+      213: -1834586939821070218
+    second: enemigoINTERMEDIO_7
+  - first:
+      213: 4737538272847009811
+    second: enemigoINTERMEDIO_8
+  - first:
+      213: 932808540141935077
+    second: enemigoINTERMEDIO_9
+  - first:
+      213: 1035299720501816457
+    second: enemigoINTERMEDIO_10
+  - first:
+      213: 6328568156976171802
+    second: enemigoINTERMEDIO_11
+  - first:
+      213: 8025941172124155277
+    second: enemigoINTERMEDIO_12
+  - first:
+      213: 6572083757847326004
+    second: enemigoINTERMEDIO_13
+  - first:
+      213: 8588362429603608378
+    second: enemigoINTERMEDIO_14
+  - first:
+      213: -1317210409082895510
+    second: enemigoINTERMEDIO_15
+  - first:
+      213: -1957966379196684186
+    second: enemigoINTERMEDIO_16
+  - first:
+      213: -6619500803229607827
+    second: enemigoINTERMEDIO_17
+  - first:
+      213: -6421394667140870240
+    second: enemigoINTERMEDIO_18
+  - first:
+      213: 8307155197178799902
+    second: enemigoINTERMEDIO_19
+  - first:
+      213: -8588520011014155712
+    second: enemigoINTERMEDIO_20
+  - first:
+      213: -7764332746218622387
+    second: enemigoINTERMEDIO_21
+  - first:
+      213: -8656660113286554627
+    second: enemigoINTERMEDIO_22
+  - first:
+      213: -3162828498054783619
+    second: enemigoINTERMEDIO_23
+  - first:
+      213: 2618238340216379224
+    second: enemigoINTERMEDIO_24
+  - first:
+      213: 3656628166678167927
+    second: enemigoINTERMEDIO_25
+  - first:
+      213: 6021131399117094913
+    second: enemigoINTERMEDIO_26
+  - first:
+      213: -9089520820435265274
+    second: enemigoINTERMEDIO_27
+  - first:
+      213: 5946506819036035135
+    second: enemigoINTERMEDIO_28
+  - first:
+      213: 2251207937273254758
+    second: enemigoINTERMEDIO_29
+  - first:
+      213: -3982028901211645165
+    second: enemigoINTERMEDIO_30
+  - first:
+      213: 4574962119969103400
+    second: enemigoINTERMEDIO_31
+  - first:
+      213: 9068851711974385759
+    second: enemigoINTERMEDIO_32
+  - first:
+      213: 5019688755349627459
+    second: enemigoINTERMEDIO_33
+  - first:
+      213: -644253754632936828
+    second: enemigoINTERMEDIO_34
+  - first:
+      213: -6613822088539799283
+    second: enemigoINTERMEDIO_35
+  - first:
+      213: 6388493378624943794
+    second: enemigoINTERMEDIO_36
+  - first:
+      213: 2673545968162956566
+    second: enemigoINTERMEDIO_37
+  - first:
+      213: -1924634803268350534
+    second: enemigoINTERMEDIO_38
+  - first:
+      213: -7388839289630480905
+    second: enemigoINTERMEDIO_39
+  - first:
+      213: 7043604412297962654
+    second: enemigoINTERMEDIO_40
+  - first:
+      213: -5429460415983700052
+    second: enemigoINTERMEDIO_41
+  - first:
+      213: -1369848369582760753
+    second: enemigoINTERMEDIO_42
+  - first:
+      213: 4450682404043664197
+    second: enemigoINTERMEDIO_43
+  - first:
+      213: -2367194135718286248
+    second: enemigoINTERMEDIO_44
+  - first:
+      213: 3497444293090729392
+    second: enemigoINTERMEDIO_45
+  - first:
+      213: -7630449970577778548
+    second: enemigoINTERMEDIO_46
+  - first:
+      213: 6619799823235570360
+    second: enemigoINTERMEDIO_47
+  - first:
+      213: -7517644793119314086
+    second: enemigoINTERMEDIO_48
+  - first:
+      213: 6158650095523790365
+    second: enemigoINTERMEDIO_49
+  - first:
+      213: -2935321235127572205
+    second: enemigoINTERMEDIO_50
+  - first:
+      213: -617778700673988782
+    second: enemigoINTERMEDIO_51
+  - first:
+      213: 573758843290661065
+    second: enemigoINTERMEDIO_52
+  - first:
+      213: -2276596746238818514
+    second: enemigoINTERMEDIO_53
+  - first:
+      213: -4312430108569715504
+    second: enemigoINTERMEDIO_54
+  - first:
+      213: -1687787305241237588
+    second: enemigoINTERMEDIO_55
+  - first:
+      213: 927784139984589258
+    second: enemigoINTERMEDIO_56
+  - first:
+      213: 9133815252688202654
+    second: enemigoINTERMEDIO_57
+  - first:
+      213: 1683585651291014447
+    second: enemigoINTERMEDIO_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acff6a41bb2d1e910800000000000000
+      internalID: 1865003421655302090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed983152ef22f840800000000000000
+      internalID: 5256316364166569443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ef0e34da91c6140800000000000000
+      internalID: 4714171141908921977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_3
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1138a0da39b1b720800000000000000
+      internalID: 2860270900616900895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e840d5b26adbdc0800000000000000
+      internalID: -3621555820161626530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a430f50efc07dbc80800000000000000
+      internalID: -8305358099676462262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_6
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f266464cd25d3bef0800000000000000
+      internalID: -93496774699489745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigoINTERMEDIO_7
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678e466f5ec3a86e0800000000000000
+      internalID: -1834586939821070218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3e836d35ea5b8ac4aae3cc4c152a3d85
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":443.0,"y":443.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      enemigoINTERMEDIO_0: 1865003421655302090
+      enemigoINTERMEDIO_1: 5256316364166569443
+      enemigoINTERMEDIO_2: 4714171141908921977
+      enemigoINTERMEDIO_3: 2860270900616900895
+      enemigoINTERMEDIO_4: -3621555820161626530
+      enemigoINTERMEDIO_5: -8305358099676462262
+      enemigoINTERMEDIO_6: -93496774699489745
+      enemigoINTERMEDIO_7: -1834586939821070218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

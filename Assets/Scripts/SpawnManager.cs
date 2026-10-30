@@ -17,6 +17,7 @@ public class SpawnManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private Transform target;
     [SerializeField] private FireManager fireManager;
+    [SerializeField] private GameStatsManager gameStatsManager;
 
     private float spawnTimer = 0f;
     private float gameTime = 0f;
@@ -70,7 +71,7 @@ public class SpawnManager : MonoBehaviour
         GameObject newEnemy = Instantiate(enemyToSpawn, spawnPoints[randomPoint].position, Quaternion.identity, enemiesParent);
 
         Enemy enemy = newEnemy.GetComponent<Enemy>();
-        enemy.Initialize(target, fireManager);
+        enemy.Initialize(target, fireManager, gameStatsManager);
     }
 
     private GameObject ChooseEnemy()

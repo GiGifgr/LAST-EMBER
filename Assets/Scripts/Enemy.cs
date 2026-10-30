@@ -19,12 +19,17 @@ public class Enemy : MonoBehaviour, IPointerDownHandler
     [Header("Hits")]
     [SerializeField] private int hitsToKill = 1;
 
+    [Header("Score")]
+    [SerializeField] private int scoreValue = 50;
+
+    private GameStatsManager gameStatsManager;
     private int currentHits = 0;
 
-    public void Initialize(Transform newTarget, FireManager newFireManager)
+    public void Initialize(Transform newTarget, FireManager newFireManager, GameStatsManager newGameStatsManager)
     {
         target = newTarget;
         fireManager = newFireManager;
+        gameStatsManager = newGameStatsManager;
     }
 
     private void Update()
@@ -37,12 +42,14 @@ public class Enemy : MonoBehaviour, IPointerDownHandler
     {
         Vector2 direction = target.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
+
         visual.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
     private void MoveToTarget()
     {
         transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+
         float distance = Vector3.Distance(transform.position, target.position);
 
         if (distance <= attackDistance)
@@ -79,6 +86,8 @@ public class Enemy : MonoBehaviour, IPointerDownHandler
 
     private void Die()
     {
+        gameStatsManager.AddScore(scoreValue);
+
         Destroy(gameObject);
     }
 }

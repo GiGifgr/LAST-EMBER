@@ -181,3 +181,4 @@ MonoBehaviour:
   fireManager: {fileID: 0}
   attackDistance: 0.2
   hitsToKill: 2
+  scoreValue: 100

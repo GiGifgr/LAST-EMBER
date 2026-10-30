@@ -4,8 +4,11 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance { get; private set; }
+
     [SerializeField] private List<UIWindow> _uiWindows;
+
     public List<UIWindow> UIWindows => _uiWindows;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -13,6 +16,7 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
@@ -23,15 +27,13 @@ public class UIManager : MonoBehaviour
         {
             if (window.Id == windowName)
             {
-                Debug.Log($"Showing window: {windowName}");
+                Debug.Log("Showing window: " + windowName);
                 window.Show();
-                break;
-            }
-            else
-            {
-                Debug.LogError("Window not found: " + windowName);
+                return;
             }
         }
+
+        Debug.LogError("Window not found: " + windowName);
     }
 
     public void HideWindow(string windowName)
@@ -40,15 +42,13 @@ public class UIManager : MonoBehaviour
         {
             if (window.Id == windowName)
             {
-                Debug.Log($"Hiding window: {windowName}");
+                Debug.Log("Hiding window: " + windowName);
                 window.Hide();
-                break;
-            }
-            else
-            {
-                Debug.LogError("Window not found: " + windowName);
+                return;
             }
         }
+
+        Debug.LogError("Window not found: " + windowName);
     }
 
     public UIWindow GetWindow(string windowName)
@@ -64,6 +64,4 @@ public class UIManager : MonoBehaviour
         Debug.LogError("Window not found: " + windowName);
         return null;
     }
-
-
 }

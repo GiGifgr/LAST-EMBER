@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject gameplayWorld;
     [SerializeField] private FireManager fireManager;
     [SerializeField] private SpawnManager spawnManager;
+    [SerializeField] private GameStatsManager gameStatsManager;
 
     private bool isGameOver = false;
     private bool isPaused = false;
@@ -39,6 +40,8 @@ public class GameManager : MonoBehaviour
 
         fireManager.ResetFire();
         fireManager.enabled = true;
+
+        gameStatsManager.StartGame();
 
         spawnManager.enabled = true;
 
@@ -97,6 +100,8 @@ public class GameManager : MonoBehaviour
         fireManager.enabled = false;
         spawnManager.StopSpawning();
 
+        gameStatsManager.FinishGame();
+
         UIManager.Instance.HideWindow("gameplayui");
         UIManager.Instance.HideWindow("popupui");
         UIManager.Instance.ShowWindow("gameoverui");
@@ -113,6 +118,8 @@ public class GameManager : MonoBehaviour
 
         isPaused = false;
         isGameOver = false;
+
+        gameStatsManager.StopGame();
 
         fireManager.enabled = false;
         spawnManager.StopSpawning();

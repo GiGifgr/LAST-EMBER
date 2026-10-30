@@ -22,14 +22,17 @@ public class FireManager : MonoBehaviour
     [SerializeField] private Image fireBarFill;
     [SerializeField] private TMP_Text fireText;
 
+    [Header("Game")]
+    [SerializeField] private GameManager gameManager;
+
     public float CurrentFire
     {
-        get{return currentFire;}
+        get { return currentFire; }
     }
 
     public float MaxFire
     {
-        get{return maxFire;}
+        get { return maxFire; }
     }
 
     private void Start()
@@ -88,25 +91,30 @@ public class FireManager : MonoBehaviour
     private void UpdateFireVisuals()
     {
         float firePercentage = currentFire / maxFire;
-        float flameScale = Mathf.Lerp(minimumFlameScale,maximumFlameScale,firePercentage);
-        flame.transform.localScale = new Vector3(flameScale,flameScale,1f);
+        float flameScale = Mathf.Lerp(minimumFlameScale, maximumFlameScale, firePercentage);
+
+        flame.transform.localScale = new Vector3(flameScale, flameScale, 1f);
         fireBarFill.fillAmount = firePercentage;
-        fireText.text = "CAMPFIRE " +Mathf.CeilToInt(currentFire) +"%";}
+        fireText.text = "CAMPFIRE " + Mathf.CeilToInt(currentFire) + "%";
+    }
 
     private void FireExtinguished()
     {
         baseCampfire.SetActive(false);
         flame.SetActive(false);
         extinguishedCampfire.SetActive(true);
-        Debug.Log("GAME OVER");
+
+        gameManager.GameOver();
     }
 
     public void ResetFire()
     {
         currentFire = maxFire;
+
         baseCampfire.SetActive(true);
         flame.SetActive(true);
         extinguishedCampfire.SetActive(false);
+
         UpdateFireVisuals();
     }
 }

@@ -10,7 +10,9 @@ public class SpawnManager : MonoBehaviour
     [Header("Spawn")]
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private Transform enemiesParent;
-    [SerializeField] private float spawnTime = 3f;
+    [SerializeField] private float startingSpawnTime = 3f;
+    [SerializeField] private float minimumSpawnTime = 0.90f;
+    [SerializeField] private float spawnTimeReduction = 0.03f;
 
     [Header("References")]
     [SerializeField] private Transform target;
@@ -18,11 +20,15 @@ public class SpawnManager : MonoBehaviour
 
     private float spawnTimer = 0f;
     private float gameTime = 0f;
+    private float currentSpawnTime;
+    private int lastSpawnPoint = -1;
 
     private void OnEnable()
     {
         gameTime = 0f;
         spawnTimer = 0f;
+        currentSpawnTime = startingSpawnTime;
+        lastSpawnPoint = -1;
     }
 
     private void Update()
@@ -30,18 +36,36 @@ public class SpawnManager : MonoBehaviour
         gameTime += Time.deltaTime;
         spawnTimer += Time.deltaTime;
 
-        if (spawnTimer >= spawnTime)
+        ReduceSpawnTime();
+
+        if (spawnTimer >= currentSpawnTime)
         {
             SpawnEnemy();
             spawnTimer = 0f;
         }
     }
 
+    private void ReduceSpawnTime()
+    {
+        currentSpawnTime -= spawnTimeReduction * Time.deltaTime;
+
+        if (currentSpawnTime < minimumSpawnTime)
+        {
+            currentSpawnTime = minimumSpawnTime;
+        }
+    }
+
     private void SpawnEnemy()
     {
         GameObject enemyToSpawn = ChooseEnemy();
-
         int randomPoint = Random.Range(0, spawnPoints.Length);
+
+        while (randomPoint == lastSpawnPoint)
+        {
+            randomPoint = Random.Range(0, spawnPoints.Length);
+        }
+
+        lastSpawnPoint = randomPoint;
 
         GameObject newEnemy = Instantiate(enemyToSpawn, spawnPoints[randomPoint].position, Quaternion.identity, enemiesParent);
 
@@ -129,5 +153,15 @@ public class SpawnManager : MonoBehaviour
         }
 
         return enemyType3;
+    }
+
+    public void StopSpawning()
+    {
+        enabled = false;
+
+        for (int i = enemiesParent.childCount - 1; i >= 0; i--)
+        {
+            Destroy(enemiesParent.GetChild(i).gameObject);
+        }
     }
 }

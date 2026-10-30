@@ -14,4 +14,15 @@ public class MainMenuUI : UIWindow
     {
         Hide();
     }
+    public void OpenSettings()
+    {
+        UIManager.Instance.HideWindow("mainmenuui");
+        UIManager.Instance.ShowWindow("settingsui");
+    }
+
+    public void OpenCredits()
+    {
+        UIManager.Instance.HideWindow("mainmenuui");
+        UIManager.Instance.ShowWindow("creditsui");
+    }
 }

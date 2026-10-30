@@ -51,5 +51,11 @@ public class SettingsUI : UIWindow
         }
     }
 
+    public void ReturnToMainMenu()
+    {
+        UIManager.Instance.HideWindow("settingsui");
+        UIManager.Instance.ShowWindow("mainmenuui");
+    }
+
 
 }

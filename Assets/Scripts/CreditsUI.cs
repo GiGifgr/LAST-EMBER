@@ -15,4 +15,10 @@ public class CreditsUI : UIWindow
         Hide();
     }
 
+    public void ReturnToMainMenu()
+    {
+        UIManager.Instance.HideWindow("creditsui");
+        UIManager.Instance.ShowWindow("mainmenuui");
+    }
+
 }

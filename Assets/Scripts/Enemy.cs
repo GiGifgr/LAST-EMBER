@@ -21,6 +21,12 @@ public class Enemy : MonoBehaviour, IPointerDownHandler
 
     private int currentHits = 0;
 
+    public void Initialize(Transform newTarget, FireManager newFireManager)
+    {
+        target = newTarget;
+        fireManager = newFireManager;
+    }
+
     private void Update()
     {
         LookAtTarget();

@@ -12,20 +12,27 @@ public class GameManager : MonoBehaviour
     [Header("Gameplay")]
     [SerializeField] private GameObject gameplayWorld;
     [SerializeField] private FireManager fireManager;
+    [SerializeField] private SpawnManager spawnManager;
 
     private void Start()
     {
         ResponsiveManager.Instance.OnScreenSizeChanged.AddListener(ResizeBackground);
         ResizeBackground();
+
         gameplayWorld.SetActive(false);
         fireManager.enabled = false;
+        spawnManager.enabled = false;
     }
 
     public void StartGame()
     {
         gameplayWorld.SetActive(true);
+
         fireManager.ResetFire();
         fireManager.enabled = true;
+
+        spawnManager.enabled = true;
+
         UIManager.Instance.HideWindow("mainmenuui");
         UIManager.Instance.ShowWindow("gameplayui");
     }
@@ -33,7 +40,9 @@ public class GameManager : MonoBehaviour
     public void ReturnToMainMenu()
     {
         fireManager.enabled = false;
+        spawnManager.enabled = false;
         gameplayWorld.SetActive(false);
+
         UIManager.Instance.HideWindow("gameplayui");
         UIManager.Instance.ShowWindow("mainmenuui");
     }

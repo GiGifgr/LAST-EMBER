@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SpawnManager spawnManager;
 
     private bool isGameOver = false;
+    private bool isPaused = false;
 
     private void Start()
     {
@@ -30,7 +31,9 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         Time.timeScale = 1f;
+
         isGameOver = false;
+        isPaused = false;
 
         gameplayWorld.SetActive(true);
 
@@ -38,6 +41,8 @@ public class GameManager : MonoBehaviour
         fireManager.enabled = true;
 
         spawnManager.enabled = true;
+
+        SetGameplayInteraction(true);
 
         UIManager.Instance.HideWindow("mainmenuui");
         UIManager.Instance.HideWindow("gameoverui");
@@ -47,14 +52,34 @@ public class GameManager : MonoBehaviour
 
     public void PauseGame()
     {
+        if (isPaused)
+        {
+            return;
+        }
+
+        isPaused = true;
+
         UIManager.Instance.ShowWindow("popupui");
+
+        SetGameplayInteraction(false);
+
         Time.timeScale = 0f;
     }
 
     public void ContinueGame()
     {
+        if (!isPaused)
+        {
+            return;
+        }
+
         Time.timeScale = 1f;
+
+        isPaused = false;
+
         UIManager.Instance.HideWindow("popupui");
+
+        SetGameplayInteraction(true);
     }
 
     public void GameOver()
@@ -65,11 +90,15 @@ public class GameManager : MonoBehaviour
         }
 
         isGameOver = true;
+        isPaused = false;
+
+        Time.timeScale = 1f;
 
         fireManager.enabled = false;
         spawnManager.StopSpawning();
 
         UIManager.Instance.HideWindow("gameplayui");
+        UIManager.Instance.HideWindow("popupui");
         UIManager.Instance.ShowWindow("gameoverui");
     }
 
@@ -82,14 +111,27 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
 
+        isPaused = false;
+        isGameOver = false;
+
         fireManager.enabled = false;
         spawnManager.StopSpawning();
         gameplayWorld.SetActive(false);
+
+        SetGameplayInteraction(true);
 
         UIManager.Instance.HideWindow("popupui");
         UIManager.Instance.HideWindow("gameoverui");
         UIManager.Instance.HideWindow("gameplayui");
         UIManager.Instance.ShowWindow("mainmenuui");
+    }
+
+    private void SetGameplayInteraction(bool value)
+    {
+        UIWindow gameplayUI = UIManager.Instance.GetWindow("gameplayui");
+
+        gameplayUI.CanvasGroup.interactable = value;
+        gameplayUI.CanvasGroup.blocksRaycasts = value;
     }
 
     public void ResizeBackground()

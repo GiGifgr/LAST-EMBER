@@ -53,6 +53,11 @@ public class Enemy : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        if (Time.timeScale == 0f)
+        {
+            return;
+        }
+
         TakeHit();
     }
 

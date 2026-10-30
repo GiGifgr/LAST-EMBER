@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private FireManager fireManager;
     [SerializeField] private SpawnManager spawnManager;
     [SerializeField] private GameStatsManager gameStatsManager;
+    [SerializeField] private TroncoManager troncoManager;
 
     private bool isGameOver = false;
     private bool isPaused = false;
@@ -24,9 +25,12 @@ public class GameManager : MonoBehaviour
         ResizeBackground();
 
         Time.timeScale = 1f;
+
         gameplayWorld.SetActive(false);
+
         fireManager.enabled = false;
         spawnManager.enabled = false;
+        troncoManager.enabled = false;
     }
 
     public void StartGame()
@@ -44,6 +48,7 @@ public class GameManager : MonoBehaviour
         gameStatsManager.StartGame();
 
         spawnManager.enabled = true;
+        troncoManager.enabled = true;
 
         SetGameplayInteraction(true);
 
@@ -98,7 +103,9 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
 
         fireManager.enabled = false;
+
         spawnManager.StopSpawning();
+        troncoManager.StopTroncos();
 
         gameStatsManager.FinishGame();
 
@@ -122,7 +129,10 @@ public class GameManager : MonoBehaviour
         gameStatsManager.StopGame();
 
         fireManager.enabled = false;
+
         spawnManager.StopSpawning();
+        troncoManager.StopTroncos();
+
         gameplayWorld.SetActive(false);
 
         SetGameplayInteraction(true);

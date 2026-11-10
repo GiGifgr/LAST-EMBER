@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using AudioType = Dino.Utility.Audio.AudioType;
 
-
 public class SettingsUI : UIWindow
 {
     [SerializeField] private Toggle toggleAudio;
+
+    private const string AudioEnabledKey = "AudioEnabled";
+    private const float AudioOnVolume = 0.8f;
+    private const float AudioOffVolume = 0f;
 
     [Button("Test Show")]
     private void TestShow()
@@ -21,34 +24,50 @@ public class SettingsUI : UIWindow
         Hide();
     }
 
-    private void OnVolumeMusicChanged(float volume)
-    {
-       AudioManager.Instance.UpdateAudioMixerGroupVolume(volume,AudioType.Music);
-    }
-
-    private void OnVolumeSFXChanged(float volume)
-    {
-        AudioManager.Instance.UpdateAudioMixerGroupVolume(volume, AudioType.SFX);
-    }
-
     public override void Initialize()
     {
         base.Initialize();
-        toggleAudio.onValueChanged.AddListener(OnToggleChange);
-        OnToggleChange(toggleAudio.isOn);
 
+        bool audioEnabled = PlayerPrefs.GetInt(AudioEnabledKey, 1) == 1;
+
+        toggleAudio.SetIsOnWithoutNotify(audioEnabled);
+
+        ApplyAudioSetting(audioEnabled);
+
+        toggleAudio.onValueChanged.AddListener(OnToggleChange);
     }
 
     public void OnToggleChange(bool value)
     {
+        ApplyAudioSetting(value);
+
         if (value)
         {
-            OnVolumeMusicChanged(1f);
+            PlayerPrefs.SetInt(AudioEnabledKey, 1);
         }
         else
         {
-            OnVolumeMusicChanged(0f);
+            PlayerPrefs.SetInt(AudioEnabledKey, 0);
         }
+
+        PlayerPrefs.Save();
+    }
+
+    private void ApplyAudioSetting(bool value)
+    {
+        float volume;
+
+        if (value)
+        {
+            volume = AudioOnVolume;
+        }
+        else
+        {
+            volume = AudioOffVolume;
+        }
+
+        AudioManager.Instance.UpdateAudioMixerGroupVolume(volume, AudioType.Music);
+        AudioManager.Instance.UpdateAudioMixerGroupVolume(volume, AudioType.SFX);
     }
 
     public void ReturnToMainMenu()
@@ -56,6 +75,4 @@ public class SettingsUI : UIWindow
         UIManager.Instance.HideWindow("settingsui");
         UIManager.Instance.ShowWindow("mainmenuui");
     }
-
-
 }

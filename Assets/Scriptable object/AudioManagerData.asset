@@ -26,7 +26,7 @@ MonoBehaviour:
     pitch: 1
     audioType: 1
   - name: pause
-    clip: {fileID: 8300000, guid: ed3648adf14bb6540bfa734cc0c73bad, type: 3}
+    clip: {fileID: 8300000, guid: 4b104c02447c68e46a356ff041a5df65, type: 3}
     loop: 0
     volume: 1
     pitch: 1
@@ -44,7 +44,7 @@ MonoBehaviour:
     pitch: 1
     audioType: 1
   - name: gameOver
-    clip: {fileID: 8300000, guid: 87202fd5ee4ac314cac7c9d127eeb98c, type: 3}
+    clip: {fileID: 8300000, guid: f675e5d3a3f4f244bbc46ee5350e360a, type: 3}
     loop: 0
     volume: 1
     pitch: 1

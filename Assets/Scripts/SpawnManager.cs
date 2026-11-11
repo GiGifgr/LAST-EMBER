@@ -11,7 +11,7 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private Transform enemiesParent;
     [SerializeField] private float startingSpawnTime = 3f;
-    [SerializeField] private float minimumSpawnTime = 0.90f;
+    [SerializeField] private float minimumSpawnTime = 1.4f;
     [SerializeField] private float spawnTimeReduction = 0.03f;
 
     [Header("References")]

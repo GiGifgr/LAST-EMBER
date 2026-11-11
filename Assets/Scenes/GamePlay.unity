@@ -877,7 +877,7 @@ MonoBehaviour:
   - {fileID: 1136472079}
   enemiesParent: {fileID: 866648785}
   startingSpawnTime: 3
-  minimumSpawnTime: 0.9
+  minimumSpawnTime: 1.4
   spawnTimeReduction: 0.03
   target: {fileID: 1486066328}
   fireManager: {fileID: 29349377}

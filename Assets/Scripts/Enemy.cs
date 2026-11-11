@@ -1,3 +1,4 @@
+using Dino.Utility.Audio;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -80,12 +81,20 @@ public class Enemy : MonoBehaviour, IPointerDownHandler
 
     private void ReachCampfire()
     {
+        if (fireManager.CurrentFire > 25f)
+        {
+            AudioManager.Instance.PlaySound("fireHit");
+        }
+
         fireManager.TakeDamage(25f);
+
         Destroy(gameObject);
     }
 
     private void Die()
     {
+        AudioManager.Instance.PlaySound("enemyDeath");
+
         gameStatsManager.AddScore(scoreValue);
 
         Destroy(gameObject);

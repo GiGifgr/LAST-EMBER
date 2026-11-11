@@ -49,3 +49,9 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     audioType: 1
+  - name: tronco
+    clip: {fileID: 8300000, guid: 8e64ab7be24ffeb41838780ad9e0bf9b, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    audioType: 1

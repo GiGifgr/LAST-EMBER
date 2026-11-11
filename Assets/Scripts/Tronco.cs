@@ -1,3 +1,4 @@
+using Dino.Utility.Audio;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -27,6 +28,8 @@ public class Tronco : MonoBehaviour, IPointerDownHandler
 
     private void CollectTronco()
     {
+        AudioManager.Instance.PlaySound("tronco");
+
         fireManager.AddFire(fireAmount);
         troncoManager.TroncoCollected();
 

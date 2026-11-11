@@ -1,4 +1,5 @@
 using System;
+using Dino.Utility.Audio;
 using NaughtyAttributes;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SpawnManager spawnManager;
     [SerializeField] private GameStatsManager gameStatsManager;
     [SerializeField] private TroncoManager troncoManager;
+    [SerializeField] private MusicManager musicManager;
 
     private bool isGameOver = false;
     private bool isPaused = false;
@@ -50,6 +52,8 @@ public class GameManager : MonoBehaviour
         spawnManager.enabled = true;
         troncoManager.enabled = true;
 
+        musicManager.PlayGameplayMusic();
+
         SetGameplayInteraction(true);
 
         UIManager.Instance.HideWindow("mainmenuui");
@@ -66,6 +70,9 @@ public class GameManager : MonoBehaviour
         }
 
         isPaused = true;
+
+        AudioManager.Instance.PlaySound("pause");
+        musicManager.PauseGameplayMusic();
 
         UIManager.Instance.ShowWindow("popupui");
 
@@ -84,6 +91,8 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
 
         isPaused = false;
+
+        musicManager.ContinueGameplayMusic();
 
         UIManager.Instance.HideWindow("popupui");
 
@@ -106,6 +115,9 @@ public class GameManager : MonoBehaviour
 
         spawnManager.StopSpawning();
         troncoManager.StopTroncos();
+
+        musicManager.StopMusic();
+        AudioManager.Instance.PlaySound("gameOver");
 
         gameStatsManager.FinishGame();
 
@@ -134,6 +146,8 @@ public class GameManager : MonoBehaviour
         troncoManager.StopTroncos();
 
         gameplayWorld.SetActive(false);
+
+        musicManager.PlayMainMenuMusic();
 
         SetGameplayInteraction(true);
 

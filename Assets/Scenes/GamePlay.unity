@@ -429,7 +429,7 @@ AudioSource:
   m_GameObject: {fileID: 131511103}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 3c504ddb4c62e874a829ad428694f980, type: 2}
+  OutputAudioMixerGroup: {fileID: 4164405609204837796, guid: 3c504ddb4c62e874a829ad428694f980, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -2008,6 +2008,7 @@ MonoBehaviour:
   spawnManager: {fileID: 466030918}
   gameStatsManager: {fileID: 1272581238}
   troncoManager: {fileID: 481428603}
+  musicManager: {fileID: 131511104}
 --- !u!4 &1885238456
 Transform:
   m_ObjectHideFlags: 0

@@ -25,3 +25,27 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     audioType: 1
+  - name: pause
+    clip: {fileID: 8300000, guid: ed3648adf14bb6540bfa734cc0c73bad, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    audioType: 1
+  - name: fireHit
+    clip: {fileID: 8300000, guid: 339035a73da0efd4c9281fdc7f1179f8, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    audioType: 1
+  - name: enemyDeath
+    clip: {fileID: 8300000, guid: e79781ff04c44e645ad6b7bc6b8f5654, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    audioType: 1
+  - name: gameOver
+    clip: {fileID: 8300000, guid: 87202fd5ee4ac314cac7c9d127eeb98c, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    audioType: 1

@@ -34,13 +34,13 @@ MonoBehaviour:
   - name: fireHit
     clip: {fileID: 8300000, guid: cb3f1ef6d10b7bc45b20d55f9dab9d54, type: 3}
     loop: 0
-    volume: 1
+    volume: 0.7
     pitch: 1
     audioType: 1
   - name: enemyDeath
     clip: {fileID: 8300000, guid: d2be87608993de34c994f29a7d37ee36, type: 3}
     loop: 0
-    volume: 1
+    volume: 0.6
     pitch: 1
     audioType: 1
   - name: gameOver

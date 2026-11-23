@@ -882,6 +882,13 @@ MonoBehaviour:
   target: {fileID: 1486066328}
   fireManager: {fileID: 29349377}
   gameStatsManager: {fileID: 1272581238}
+  tapTextType1: {fileID: 2282285448696074346}
+  tapTextType2: {fileID: 2282285448696074345}
+  tapTextType3: {fileID: 1266952850}
+  tapTextsParent: {fileID: 1722518192}
+  gameplayCamera: {fileID: 1905044865}
+  tapTextOffset: {x: 0, y: 0.5, z: 0}
+  tutorialEnemiesPerType: 5
 --- !u!4 &466030919
 Transform:
   m_ObjectHideFlags: 0
@@ -1521,6 +1528,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &1266952850 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3570920475153153514, guid: 8c14f0ba6ff68534f8d3e64579ec03fd, type: 3}
+  m_PrefabInstance: {fileID: 2282285448696074335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9d446b1550d63498b88ce5611de38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTapText
 --- !u!114 &1268871312 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5166911965899920709, guid: 70dac587c27c3e341b1b66906c23299e, type: 3}
@@ -1925,6 +1943,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!224 &1722518192 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 76263084843137803, guid: 8c14f0ba6ff68534f8d3e64579ec03fd, type: 3}
+  m_PrefabInstance: {fileID: 2282285448696074335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1770419039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,6 +2500,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c14f0ba6ff68534f8d3e64579ec03fd, type: 3}
+--- !u!114 &2282285448696074345 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7805415526848983229, guid: 8c14f0ba6ff68534f8d3e64579ec03fd, type: 3}
+  m_PrefabInstance: {fileID: 2282285448696074335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9d446b1550d63498b88ce5611de38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTapText
+--- !u!114 &2282285448696074346 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8658844542734600188, guid: 8c14f0ba6ff68534f8d3e64579ec03fd, type: 3}
+  m_PrefabInstance: {fileID: 2282285448696074335}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9d446b1550d63498b88ce5611de38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTapText
 --- !u!4 &3665885585682999724 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3158727631820357954, guid: 70dac587c27c3e341b1b66906c23299e, type: 3}

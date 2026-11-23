@@ -1624,6 +1624,7 @@ GameObject:
   - component: {fileID: 6707837571376798022}
   - component: {fileID: 6704363193900796778}
   - component: {fileID: 6660507440493635096}
+  - component: {fileID: 7805415526848983229}
   m_Layer: 0
   m_Name: TAP 2
   m_TagString: Untagged
@@ -1750,6 +1751,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7805415526848983229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830229214355821039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9d446b1550d63498b88ce5611de38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTapText
+  tapText: {fileID: 6660507440493635096}
+  rectTransform: {fileID: 6707837571376798022}
 --- !u!1 &5845777924699996684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1761,6 +1776,7 @@ GameObject:
   - component: {fileID: 3141271604038504546}
   - component: {fileID: 2868439853913151502}
   - component: {fileID: 1381973880071220331}
+  - component: {fileID: 8658844542734600188}
   m_Layer: 0
   m_Name: TAP 1
   m_TagString: Untagged
@@ -1887,6 +1903,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8658844542734600188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5845777924699996684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9d446b1550d63498b88ce5611de38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTapText
+  tapText: {fileID: 1381973880071220331}
+  rectTransform: {fileID: 3141271604038504546}
 --- !u!1 &6723981502390093371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +2031,7 @@ GameObject:
   - component: {fileID: 4344700161464516784}
   - component: {fileID: 1237418324651723061}
   - component: {fileID: 1733343103362988207}
+  - component: {fileID: 3570920475153153514}
   m_Layer: 0
   m_Name: TAP 3
   m_TagString: Untagged
@@ -2127,6 +2158,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3570920475153153514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7353412668202365996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9d446b1550d63498b88ce5611de38d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyTapText
+  tapText: {fileID: 1733343103362988207}
+  rectTransform: {fileID: 4344700161464516784}
 --- !u!1 &8346020450005429223
 GameObject:
   m_ObjectHideFlags: 0

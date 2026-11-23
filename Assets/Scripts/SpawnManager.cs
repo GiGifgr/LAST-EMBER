@@ -19,10 +19,23 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private FireManager fireManager;
     [SerializeField] private GameStatsManager gameStatsManager;
 
+    [Header("Tutorial UI")]
+    [SerializeField] private EnemyTapText tapTextType1;
+    [SerializeField] private EnemyTapText tapTextType2;
+    [SerializeField] private EnemyTapText tapTextType3;
+    [SerializeField] private Transform tapTextsParent;
+    [SerializeField] private Camera gameplayCamera;
+    [SerializeField] private Vector3 tapTextOffset = new Vector3(0f, 0.8f, 0f);
+    [SerializeField] private int tutorialEnemiesPerType = 3;
+
     private float spawnTimer = 0f;
     private float gameTime = 0f;
     private float currentSpawnTime;
     private int lastSpawnPoint = -1;
+
+    private int type1TutorialCount = 0;
+    private int type2TutorialCount = 0;
+    private int type3TutorialCount = 0;
 
     private void OnEnable()
     {
@@ -30,6 +43,10 @@ public class SpawnManager : MonoBehaviour
         spawnTimer = 0f;
         currentSpawnTime = startingSpawnTime;
         lastSpawnPoint = -1;
+
+        type1TutorialCount = 0;
+        type2TutorialCount = 0;
+        type3TutorialCount = 0;
     }
 
     private void Update()
@@ -72,6 +89,43 @@ public class SpawnManager : MonoBehaviour
 
         Enemy enemy = newEnemy.GetComponent<Enemy>();
         enemy.Initialize(target, fireManager, gameStatsManager);
+
+        ShowTapTutorial(newEnemy.transform, enemyToSpawn);
+    }
+
+    private void ShowTapTutorial(Transform enemyTransform, GameObject enemyType)
+    {
+        EnemyTapText tapTextTemplate = null;
+        string tutorialText = "";
+
+        if (enemyType == enemyType1 && type1TutorialCount < tutorialEnemiesPerType)
+        {
+            tapTextTemplate = tapTextType1;
+            tutorialText = "1 TAP";
+            type1TutorialCount++;
+        }
+        else if (enemyType == enemyType2 && type2TutorialCount < tutorialEnemiesPerType)
+        {
+            tapTextTemplate = tapTextType2;
+            tutorialText = "2 TAP";
+            type2TutorialCount++;
+        }
+        else if (enemyType == enemyType3 && type3TutorialCount < tutorialEnemiesPerType)
+        {
+            tapTextTemplate = tapTextType3;
+            tutorialText = "3 TAP";
+            type3TutorialCount++;
+        }
+
+        if (tapTextTemplate == null)
+        {
+            return;
+        }
+
+        EnemyTapText newTapText = Instantiate(tapTextTemplate, tapTextsParent);
+
+        newTapText.Initialize(enemyTransform, gameplayCamera, tutorialText, tapTextOffset);
+        newTapText.gameObject.SetActive(true);
     }
 
     private GameObject ChooseEnemy()
